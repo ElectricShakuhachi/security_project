@@ -16,4 +16,5 @@ My chosen security flaws are:
 - [CSRF -token](secflaw_demo/questionnaire/templates/questionnaire/question.html)
 	- form on line 7
 	- also [here](secflaw_demo/questionnaire/views.py) line 50
-- [Vulnerable and Outdated Components]()
+- [Vulnerable and Outdated Components](secflaw_demo/requirements.txt)
+	- line 30
