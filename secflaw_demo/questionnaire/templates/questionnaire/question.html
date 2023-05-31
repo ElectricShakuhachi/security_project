@@ -1,0 +1,13 @@
+<h1>{{ question }}</h1>
+
+{% if error_message %}
+	<p><strong>{{ error_message }}</strong></p>
+{% endif %}
+
+<form action="{% url 'questionnaire:answer' question_id %}" method="post">
+	<!-- exhibit 4 - lack of csrf token -->
+	<!-- secure : -->
+	<!-- {% csrf_token %} -->
+	{{ form.as_p }}
+	<input type="submit" value="Answer">
+</form>
