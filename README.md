@@ -8,7 +8,7 @@ where the flaws are pointed out and the ways to fix them are explained.
 My chosen security flaws are:
 
 - [Broken Access Control](secflaw_demo/questionnaire/views.py)
-	- function from line 62
+	- function from line 66
 - [Injection](secflaw_demo/questionnaire/views.py)
 	- function from line 21
 - [Security Misconfiguration](secflaw_demo/.env)
